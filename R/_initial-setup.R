@@ -40,9 +40,9 @@ files_to_make <- c(
 readme_md <- c(
   paste('#', main_title),
   '',
-  paste("Created:", format(Sys.time())),
-  paste("Results:", book_directory),
-  paste("Git Repo:", git_repo),
+  paste("- Created:", format(Sys.time())),
+  paste("- Results:", book_directory),
+  paste("- Git Repo:", git_repo),
   '',
   "## Description",
   '',
